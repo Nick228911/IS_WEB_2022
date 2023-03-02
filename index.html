@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Cat-kot-house</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Котики, приют, кот, кошка, cat">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="timeLoad.js"></script>
+    <script src="currentPage.js"></script>
+</head>
+<body>
+<nav class="menuOfPage">
+    <a href="#mainPage">Главная</a>
+    <a href="gallery.html#gallery__head">Галлерея с Котиками</a>
+    <a href="review.html#TODO__head">Ваши Пожелания</a>
+</nav>
+<div class="allContent">
+    <header>
+        <h1 class="header" id="mainPage">Авторский приют для котиков "Cat-Kot-House"</h1>
+    </header>
+    <main>
+        <div class="swiper gallerySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="photo" src="main.JPG" width="720" height="479" alt="photo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo" src="main2.jpg" width="720" height="479" alt="photo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo" src="maxresdefault.jpg" width="720" height="479" alt="photo">
+                </div>
+            </div>
+            <div class="gallerySwiper-pagination"></div>
+        </div>
+        <div class="section">
+            <div class="mySection">
+                <h2>Наши филиалы</h2>
+                <ul>
+                    <li>Шайба, 1Н Ростов-на-Дону 2009 - 2020</li>
+                    <li>Пер. Вяземский 54 Санкт-Петербург 2020 - ...</li>
+                </ul>
+            </div>
+            <div class="mySection">
+                <h2>Контактная информация.</h2>
+                <ul class="logos">
+                    <li>
+                        <nav><a href="tel:88005553535">
+                            <img class="logo" src="icons/phone.png" alt="photo">
+                        </a></nav>
+                    </li>
+                    <li>
+                        <nav><a href="mailto:cat@gmail.com">
+                            <img class="logo" src="icons/mail.png" alt="photo">
+                        </a></nav>
+                    </li>
+                    <li>
+                        <nav><a href="https://github.com/cat">
+                            <img class="logo" src="icons/github.png" alt="photo">
+                        </a></nav>
+                    </li>
+                    <li>
+                        <nav><a href="https://t.me/cat">
+                            <img class="logo" src="icons/telegram.png" alt="photo">
+                        </a></nav>
+                    </li>
+                </ul>
+            </div>
+            <div class="mySection">
+                <h2>Наша любимая цитата.</h2>
+                <blockquote>
+                    <p>Лягушка должна <strong>подумать</strong>, что <ins>чем сильнее она барахтается, тем молоко жиже</ins></p>
+                    <cite>(С) Великий Кошачий Тактик и Стратег</cite>
+                </blockquote>
+            </div>
+            <div class="mySection">
+                <h2>Котик</h2>
+                <pre>
+                        _
+                       | \
+                       | |
+                       | |
+  |\                   | |
+ /, ~\                / /
+X     `-.....-------./ /
+ ~-. ~  ~              |
+    \             /    |
+     \  /_     ___\   /
+     | /\ ~~~~~   \ |
+     | | \        || |
+     | |\ \       || )
+    (_/ (_/      ((_/
+    </pre>
+            </div>
+            <div class="mySection" id="code">
+                <h2>Код на языке программирования Java.</h2>
+                <pre><code>
+import java.util.Scanner;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+        // Creates a reader instance which takes
+        // input from standard input - keyboard
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        // nextInt() reads the next integer from the keyboard
+        int number = reader.nextInt();
+
+        // println() prints the following line to the output screen
+        System.out.println("You entered: " + number);
+    }
+}
+            </code></pre>
+            </div>
+            <div class="mySection">
+                <h2>Объективный и неподкупный рейтинг фильмов от нашего приюта</h2>
+                <table class="my_grid_table">
+                    <thead class="head-table">
+                    <tr class="my_table_row">
+                        <th class="head-table-theme">Название Корма</th>
+                        <th class="head-table-theme">Оценка критика А. Котова</th>
+                        <th class="head-table-theme">Наша Оценка</th>
+                    </tr>
+                    </thead>
+                    <tbody class="body-table">
+                    <tr class="my_table_row">
+                        <td class="my_table_row_field">Китикет</td>
+                        <td class="my_table_row_field">10</td>
+                        <td class="my_table_row_field">9</td>
+                    </tr>
+                    <tr class="my_table_row">
+                        <td class="my_table_row_field">Вискас</td>
+                        <td class="my_table_row_field">10</td>
+                        <td class="my_table_row_field">9.5</td>
+                    </tr>
+                    <tr class="my_table_row">
+                        <td class="my_table_row_field">Педигри</td>
+                        <td class="my_table_row_field">12</td>
+                        <td class="my_table_row_field">10</td>
+                    </tr>
+                    <tr class="my_table_row">
+                        <td class="my_table_row_field">Шеба Плеже</td>
+                        <td class="my_table_row_field">10</td>
+                        <td class="my_table_row_field">9.4</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p><i>Founded by Belianin Nikolay Romanovich The Third <br> Sankt-Peterburg, Russia <br> 2023</i></p>
+    </footer>
+    <div id="timeOfLoading"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="GallerySwiper.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your reviews</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Котики, приют, кот, кошка, cat, пожелания">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="currentPage.js"></script>
+    <script src="users.js"></script>
+
+</head>
+<body>
+<nav class="menuOfPage">
+    <a href="index.html#mainPage">Главная</a>
+    <a href="gallery.html#gallery__head">Галлерея с Котиками</a>
+    <a href="#TODO__head">Ваши пожелания</a>
+</nav>
+<div class="allContent">
+    <header>
+        <h1 class="header" id="TODO__head">Ваши пожелания</h1>
+    </header>
+    <div class="containerReviews">
+        <form class="main__reviews-form">
+            <label>
+                <input class="main__reviews-input" type="text" placeholder="Ваш отзыв">
+            </label>
+            <button class="main__add-button" type="submit">+</button>
+        </form>
+        <ul class="main__reviews-items"></ul>
+    </div>
+    <script src="review.js"></script>
+    <div id="users">
+        <div class="preloader">
+            <img src="icons/cat_loading.gif" alt="cat-load"/>
+            <p>Загрузка фото...</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
